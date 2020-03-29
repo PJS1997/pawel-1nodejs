@@ -19,7 +19,7 @@ const sample = () => {
 app.get("/", function(req, res) {
     // res.send("Hello World")
     res.render("index", {
-        pageTitle: "lekcja01",
+        pageTitle: "lekcja",
         sampleText: newVaribles.someTitle,
         thirdTitle: sample()
 
